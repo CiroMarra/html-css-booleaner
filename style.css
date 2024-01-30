@@ -11,10 +11,13 @@ header {
     height: 100px;
   }
 
+  .author-link {
+    text-decoration: none;
+  }
 
 
 h1 {
-   font-size: 70px;
+   font-size: 38px;
 }
 
 p {
@@ -45,6 +48,7 @@ article {
 /* tabella */
 .titolo-tabella {
     background-color:#20A9E5;
+    text-align: left;
 }
 
 .tabella-azzurra {
@@ -63,6 +67,10 @@ article {
 
 .intestazione-tabella {
     color: white;
+}
+
+.big-cell {
+    width: 50%;
 }
 /*fine tabella */
 
